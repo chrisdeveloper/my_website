@@ -1,0 +1,363 @@
+.h2-style-section{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#083c78;
+    @media screen and (max-width: 720px){
+	    font-size: 30px;
+	    text-align: center;
+    }
+}
+
+.btn-primary{
+    background: #083c78;
+}
+.parallax-window {
+    min-height: 560px;
+    background: transparent;
+        @media screen and (max-width:720px){
+            min-height: 300px;
+        } 
+}
+
+.box-inscricao{
+
+    padding-top: 50px;
+    padding-bottom: 35px;
+    .out-image{
+        background: #BBB;
+    }
+    h2{
+		@extend .h2-style-section;
+    }
+	
+    .img-inscricao{
+		img{
+		    width: 100%;	
+		    max-width: 200px; 
+			margin: 0 auto;
+			display: block;
+		}
+	}
+}
+.label-checkbox{
+    font-weight: 700;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+
+.btn-enviar{
+	background: #083c78;
+	color: #FFF;
+	border-radius: 0px;
+}
+//MENU MOBILE
+.menu-mobile{
+
+    .nav{
+        overflow-y: scroll;
+        padding: 80px 20px!important;
+        li{
+            background: #083c78;
+            border-bottom: 1px solid #FFF;
+            border-left: 3px solid #FFF;
+            margin-top: 5px;
+            i{
+                margin-right: 5px;
+            }
+            a{
+                color: #FFF;
+                font-weight: 700;
+            }
+            &:hover{
+                background: #CCC;
+                a{
+                    color: #000;
+                }
+            }
+            &:last-child{
+
+            }
+        }
+    }
+
+}
+
+
+/*Cronograma do  Torneio*/
+.cronograma-torneio{
+
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    h2{
+    	@extend .h2-style-section;
+
+    }
+    .panel-group{
+    	.panel{
+    		border: 0px;
+    		box-shadow: none;
+    		.custom-panel-heading{
+    			padding:0px;
+    			border-radius: 0px;
+    			background:#BBB;
+    			.panel-title{
+    				padding: 20px 15px;
+    				text-transform: uppercase;
+					color: #FFF;
+					background: #083c78;
+					position: relative;
+					font-weight: 700;
+    				@media screen and (max-width: 625px){
+    					padding: 30px 15px;
+    				}					
+    				a{
+    					position: absolute;
+    					width: 100%;
+    					height: 100%;
+    					top:0;
+    					left: 0;
+    					padding:10px 15px;
+    					text-decoration: none;
+						i{
+							margin-right: 20px;
+						} 
+    					&.collapsed{
+							color:#083c78;
+							background: #BBB;
+						}
+    				}
+    				
+    			}
+    		}
+    		.custom-panel-body{
+    			padding: 15px 50px;
+    			p{
+    				color: #083c78;
+    				font-size: 16px;
+    				font-weight: 500;
+    			}
+    		}
+    	}
+    }
+}
+
+/*duvidas*/
+
+.duvidas{
+
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    h2{
+    	@extend .h2-style-section;
+
+    }
+    .panel-group{
+    	.panel{
+    		border: 0px;
+    		box-shadow: none;
+    		.custom-panel-heading{
+    			padding:0px;
+    			border-radius: 0px;
+    			background:#BBB;
+    			.panel-title{
+    				padding: 20px 15px;
+    				text-transform: uppercase;
+					color: #FFF;
+					background: #083c78;
+					position: relative;
+					font-weight: 700;
+    				a{
+    					position: absolute;
+    					width: 100%;
+    					height: 100%;
+    					top:0;
+    					left: 0;
+    					padding:10px 15px;
+    					text-decoration: none;
+						i{
+							margin-right: 20px;
+						} 
+    					&.collapsed{
+							color:#083c78;
+							background: #BBB;
+						}
+    				}
+    				
+    			}
+    		}
+    		.custom-panel-body{
+    			padding: 15px 50px;
+    			p{
+    				color: #083c78;
+    				font-size: 16px;
+    				font-weight: 500;
+    			}
+    		}
+    	}
+    }
+}
+
+/*regulamento*/
+
+.regulamento{
+
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    h2{
+    	@extend .h2-style-section;
+
+    }
+    .panel-group{
+    	.panel{
+    		border: 0px;
+    		box-shadow: none;
+    		.custom-panel-heading{
+    			padding:0px;
+    			border-radius: 0px;
+    			background:#BBB;
+    			.panel-title{
+    				padding: 20px 15px;
+    				text-transform: uppercase;
+					color: #FFF;
+					background: #083c78;
+					position: relative;
+					font-weight: 700;
+    				a{
+    					position: absolute;
+    					width: 100%;
+    					height: 100%;
+    					top:0;
+    					left: 0;
+    					padding:10px 15px;
+    					text-decoration: none;
+						i{
+							margin-right: 20px;
+						} 
+    					&.collapsed{
+							color:#083c78;
+							background: #BBB;
+						}
+    				}
+    				
+    			}
+    		}
+    		.custom-panel-body{
+    			padding: 15px 50px;
+    			p{
+    				color: #083c78;
+    				font-size: 16px;
+    				font-weight: 500;
+    			}
+    		}
+    	}
+    }
+	.btn-baixar{
+		text-align: center;
+		text-transform: uppercase;
+		background:transparent;
+		color:#083c78;
+		border-radius: 0px;
+	}    
+}
+/*Contato*/
+
+.contato{
+	background: #BBB;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    h2{
+		@extend .h2-style-section;
+    }
+    .box-img-contato{
+    	position: inherit;
+    	height: 100%;
+    	.img-contato{
+		    position: absolute;
+	    	bottom: 50px;	
+	    	@media screen and (max-width: 720px){
+	    		position: relative;
+	    		bottom:auto;
+	    	}	
+			img{
+			    width: 100%;	
+			    max-width: 200px; 
+				margin: 0 auto;
+				display: block;
+			}
+		}	
+    }
+	
+	.custom-nav-tabs{
+		li{
+			border:0px;
+			margin-bottom: 15px;
+			a{
+				border: 0px;
+				border-radius: 0px;
+				padding: 15px;
+				background: #CCC;
+				color: #000;				
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			&.active{
+				
+				a{
+					border:0px;
+					background: #083c78;
+					color: #FFF; 
+				}
+				&:hover{
+					a{
+						border: 0px; 
+					}
+				}
+			
+			}
+			&:hover{
+				a{
+					background: #083c78;
+					color: #FFF; 
+				}
+			}
+		}
+	}
+}
+.login{
+    background: #083c78;
+    padding: 0px 5px 5px 5px;
+    display: table;
+    margin: 0 auto;
+    h3{
+        color:#FFF;
+        text-align: center;
+    }
+
+    &.mobile{
+        padding: 0px 0px 20px 0px;
+        margin: 0px;
+        width: 100%;
+        h2{
+            margin-left: 10px;
+            color:#FFF;
+            font-weight: 700;
+        }
+        .control-form{
+            margin-bottom: 10px;
+        }
+    }
+}
+

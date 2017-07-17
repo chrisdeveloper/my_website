@@ -1,0 +1,48 @@
+@font-face {
+  font-family: LiberationSans;
+  src: url(‘../fonts/LiberationSans-Regular.ttf’);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: arialBoldMT;
+  src: url(‘../fonts/arialBoldMT.otf’);
+  font-weight: normal;
+  font-style: normal;
+}
+
+#teste{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-principal {
+    margin-left: 0 !important;
+    li a {
+      width: 193px;
+    }
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+
+}
+
+.bg-header {
+
+}
+
+.principal-content p {
+  height: 60px;
+  background: #CCC;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 60px;
+}

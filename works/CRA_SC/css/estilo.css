@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@font-face {
+  font-family: LiberationSans;
+  src: url(ÔÇÿ../fonts/LiberationSans-Regular.ttfÔÇÖ);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: arialBoldMT;
+  src: url(ÔÇÿ../fonts/arialBoldMT.otfÔÇÖ);
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 16, ../sass/estilo.scss */
+#teste {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 21, ../sass/estilo.scss */
+  .nav-principal {
+    margin-left: 0 !important;
+  }
+  /* line 23, ../sass/estilo.scss */
+  .nav-principal li a {
+    width: 193px;
+  }
+}
+/* line 29, ../sass/estilo.scss */
+body {
+  font-family: sans-serif;
+}
+
+/* line 41, ../sass/estilo.scss */
+.principal-content p {
+  height: 60px;
+  background: #CCC;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 60px;
+}

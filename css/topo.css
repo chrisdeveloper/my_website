@@ -1,0 +1,139 @@
+/* line 1, ../sass/topo.scss */
+.bg-header {
+  color: #FFF;
+  position: relative;
+  float: left;
+  /* MENU -- Desktop*/
+}
+/* line 8, ../sass/topo.scss */
+.bg-header .image-topo img {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+/* line 14, ../sass/topo.scss */
+.bg-header .container-info {
+  position: absolute;
+  margin-top: 130px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px 80px;
+}
+/* line 20, ../sass/topo.scss */
+.bg-header .container-info .container-qtd-dias {
+  position: relative;
+  padding: 1px 15px;
+  border: 1px solid #FFF;
+  text-align: center;
+}
+/* line 26, ../sass/topo.scss */
+.bg-header .container-info .box-inscricao {
+  margin-top: 150px;
+  margin-left: 28px;
+  color: #FFF;
+  line-height: 35px;
+  text-align: center;
+}
+/* line 32, ../sass/topo.scss */
+.bg-header .container-info .box-inscricao.btn-inscricao {
+  border-radius: 0px;
+  padding: 7px 20px;
+  line-height: 20px;
+  border: 0px;
+  background-image: none !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 41, ../sass/topo.scss */
+.bg-header .container-info .box-inscricao span {
+  font-size: 16px;
+  margin-top: 10px;
+}
+/* line 51, ../sass/topo.scss */
+.bg-header .container-fluid.margin-custom-menu {
+  position: absolute;
+  bottom: 0px;
+}
+@media screen and (min-width: 1295px) {
+  /* line 51, ../sass/topo.scss */
+  .bg-header .container-fluid.margin-custom-menu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+/* line 61, ../sass/topo.scss */
+.bg-header .container-fluid.margin-custom-menu .nav-principal li {
+  border: 1px solid #FFF;
+}
+/* line 63, ../sass/topo.scss */
+.bg-header .container-fluid.margin-custom-menu .nav-principal li a {
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0px;
+  text-transform: uppercase;
+  background: #DDD;
+  color: #565656;
+  line-height: 35px;
+}
+/* line 71, ../sass/topo.scss */
+.bg-header .container-fluid.margin-custom-menu .nav-principal li a:hover {
+  background: #A5A2A2;
+  color: #FFF;
+}
+/* line 77, ../sass/topo.scss */
+.bg-header .container-fluid.margin-custom-menu .nav-principal li.active a {
+  color: #FFF;
+}
+
+/* line 89, ../sass/topo.scss */
+.box-important-info ul {
+  padding-left: 0;
+}
+/* line 90, ../sass/topo.scss */
+.box-important-info ul li {
+  list-style: none;
+}
+/* line 92, ../sass/topo.scss */
+.box-important-info ul li i {
+  margin-right: 5px;
+}
+/* line 99, ../sass/topo.scss */
+.box-important-info .box-preparado li {
+  color: #757575;
+  margin-bottom: 5px;
+}
+/* line 103, ../sass/topo.scss */
+.box-important-info .box-preparado h2 {
+  color: #083c78;
+}
+@media screen and (min-width: 800px) {
+  /* line 98, ../sass/topo.scss */
+  .box-important-info .box-preparado {
+    padding: 30px 200px;
+  }
+}
+/* line 111, ../sass/topo.scss */
+.box-important-info .box-desafio {
+  background: #083c78;
+  color: #FFF;
+  padding: 50px 200px;
+}
+/* line 115, ../sass/topo.scss */
+.box-important-info .box-desafio img {
+  float: left;
+  height: 300px;
+  height: 215px;
+  margin-right: 30px;
+}
+
+/* line 123, ../sass/topo.scss */
+.principal-content {
+  float: left;
+  width: 100%;
+}
+
+/* line 128, ../sass/topo.scss */
+.box-patrocinadores {
+  float: left;
+  width: 100%;
+}

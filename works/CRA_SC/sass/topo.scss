@@ -1,0 +1,251 @@
+*{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.no-padding{
+	padding: 0px;
+}
+header {
+	height: 100px;
+	@media screen and (min-width: 400px){
+		padding-left: 30px;
+	}
+}
+
+.logo{
+
+	@media screen and (min-width: 400px){
+		padding: 10px 0px;
+	}
+	position: relative;
+	width: 100%;
+
+	max-width: 269px;
+	max-height: 69px;
+	@media screen and (min-width: 993px){
+		//min-width: 100%;
+		margin-top: 10px;
+	}
+
+	@media screen and (min-width: 401px) and (max-width: 993px){
+		margin: 0 auto;
+		display: block;
+	}
+	@media screen and (max-width: 400px){
+		margin-top: 20px;
+		float:right;
+	}
+}
+
+/*Menu Mobile*/
+
+.pure-toggle-label{
+	border-radius: 0px;
+
+	&:hover{
+		border-color: #CCC;
+		color: #CCC;
+		.pure-toggle-icon{
+			background-color: #CCC;
+			&:before , &:after{
+				background-color: #CCC;
+			}
+		}
+	}
+}
+
+.bg-header {
+
+  	color: #FFF;
+  	// position: relative;
+  	float: left;
+
+	.image-topo{
+	    position: absolute;
+	    top: 0px;
+	    width: 100%;
+		#conteudo-img{
+			position:relative;
+			min-height: 660px;
+		}
+		@media screen and (max-width:720px){
+			top: 100px;
+
+			#conteudo-img{
+
+				min-height: 300px;
+				padding-left: 0px;
+			}
+		}
+	}
+
+	.container-info{
+		position: absolute;
+	    margin-top: 130px;
+	    height: 300px;
+	    background: rgba(0, 0, 0, 0.5);
+	    padding: 40px 80px;
+
+	    h2{
+			text-transform: uppercase;
+			font-size: 35px;
+			font-weight: bold;
+	    }
+
+	    @media screen and (max-width: 660px){
+	    	padding: 0px 20px;
+    		margin-top: 0px;
+    		text-align: center;
+
+    		h2{
+    			font-size: 30px;
+    		}
+	    }
+		.container-qtd-dias {
+		position: relative;
+		padding: 1px 15px;
+		border: 1px solid #FFF;
+                      padding-top:8px;
+		text-align: center;
+		background-color: #083c78;
+		}
+	}
+.box-inscricao {
+	margin-top: 80px;
+	margin-left: 28px;
+	color: #FFF;
+	line-height: 35px;
+	text-align: center;
+	&.out-image{
+		background: #CCC;
+		padding-top: 20px;
+		margin-top: 0px;
+		margin-left: 0px;
+
+	}
+
+	.btn-inscricao{
+		border-radius: 0px;
+		padding: 15px 20px;
+		line-height: 20px;
+		border: 0px;
+		background-image:none !important;
+		font-size: 16px;
+		font-weight: bold;
+
+	}
+	span {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+
+}
+
+/* MENU -- Desktop*/
+	.container-fluid{
+		&.margin-custom-menu{
+
+			position: absolute;
+			bottom: 0px;
+			@media screen and (min-width: 1295px){
+				padding-left: 100px;
+				padding-right: 100px;
+			}
+
+			.nav-principal{
+				li{
+
+					border: 1px solid #FFF;
+					a {
+				  		font-size: 14px;
+				  		font-weight: 700;
+				  		border-radius: 0px;
+				  		text-transform: uppercase;
+				  		background: #DDD;
+				  		color: #565656;
+				  		line-height: 35px;
+				  		&:hover{
+				  			background: #A5A2A2;
+				  			color: #FFF;
+				  		}
+					}
+					&.active{
+						a{
+							background: #083c78 !important;
+							color: #FFF;
+						}
+
+					}
+				}
+			}
+
+		}
+	}
+}
+.box-important-info {
+
+  ul {
+    li {
+      list-style: none;
+      i {
+        margin-right: 5px;
+      }
+    }
+    padding-left: 0;
+  }
+  .box-preparado {
+    li {
+      color: #757575;
+      margin-bottom: 5px;
+    }
+    h2 {
+      color: #083c78;
+    }
+    @media screen and (min-width: 990px){
+    	padding: 30px 200px;
+    }
+    @media screen and (max-width: 990px){
+    	text-align: center;
+    	top: 150px;
+    	min-height: 365px;
+    }
+  }
+  .box-desafio {
+    background: #083c78;
+    color: #FFF;
+    padding: 50px 200px;
+    @media screen and (max-width: 800px){
+    	padding: 20px 15px 20px 15px;
+    	text-align: center
+    }
+    .img-box-desafio{
+    	margin-right: 30px;
+    	margin: 0 auto;
+    	display: block;
+	    img {
+      		height: 235px;
+
+    	}
+    }
+
+  }
+}
+
+
+.principal-content{
+	float: left;
+	width: 100%;
+}
+
+.box-patrocinadores{
+	float: left;
+	width: 100%;
+}
+
+.height-max{
+	max-height: 69px;           
+	@media screen and (max-width: 720px){
+    	width: 100%;
+    }
+}
+

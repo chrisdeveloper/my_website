@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@font-face {
+  font-family: LiberationSans;
+  src: url(ÔÇÿ../fonts/LiberationSans-Regular.ttfÔÇÖ);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: arialBoldMT;
+  src: url(ÔÇÿ../fonts/arialBoldMT.otfÔÇÖ);
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (max-width: 1200px) {
+  /* line 18, ../sass/estilo.scss */
+  .nav-principal {
+    margin-left: 0 !important;
+  }
+  /* line 20, ../sass/estilo.scss */
+  .nav-principal li a {
+    width: 193px;
+  }
+}
+/* line 26, ../sass/estilo.scss */
+body {
+  font-family: sans-serif;
+}
+
+/* line 30, ../sass/estilo.scss */
+header {
+  height: 100px;
+  padding: 10px 30px;
+}
+
+/* line 35, ../sass/estilo.scss */
+h2 {
+  text-transform: uppercase;
+  font-size: 35px !important;
+  font-weight: bold !important;
+}
+
+/* line 45, ../sass/estilo.scss */
+.blue {
+  background: #083c78 !important;
+}
+
+/* line 49, ../sass/estilo.scss */
+.box-inscricao
+.nav-principal {
+  position: absolute;
+  bottom: 0;
+}
+/* line 54, ../sass/estilo.scss */
+.box-inscricao
+.nav-principal li a {
+  background: #d3d3d3;
+  border: 1px solid #FFF;
+  border-left: 0;
+  color: #000;
+}
+/* line 55, ../sass/estilo.scss */
+.box-inscricao
+.nav-principal li a:hover {
+  font-size: 14px !important;
+}
+/* line 63, ../sass/estilo.scss */
+.box-inscricao
+.nav-principal .active a {
+  color: #FFF;
+}
+/* line 66, ../sass/estilo.scss */
+.box-inscricao
+.nav-principal li:first-child a {
+  border-left: 1px solid #FFF;
+}
+
+/* line 73, ../sass/estilo.scss */
+.principal-content p {
+  height: 60px;
+  background: #CCC;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  line-height: 60px;
+}
